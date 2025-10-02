@@ -15,4 +15,53 @@
 body{
     background-color: var(--creme);
     font-family: var(--texto);
+    margin: 0;
+}
+.img-logo{ 
+ width: 20%;
+ border-radius: 5%;
+}
+header{
+    background-color: #5a3a11;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30PX;
+   
+    font-size: 20px;
+    font-family: var(--titulo);
+    text-transform: uppercase;
+}
+.menu a{
+    text-decoration: none;
+     color: var(--creme);
+}
+.menu a:hover{
+    color: var(--morango);
+    transition: 0.5s;
+}
+.capa{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.capa img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.apresentacao{
+    font-family: var(--titulo);
+    text-align: center;
+    margin: 40px 0;
 }
