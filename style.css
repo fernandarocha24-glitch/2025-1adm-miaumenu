@@ -1,11 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
 
 :root{
---azul:
---amarelo-forte:
---laranja:
---titulo:"Roboto", sans-serif;
---texto:"Open Sans", sans-serif;
+    --expresso: #47281b;
+    --capuccino: #5a3a11;
+    --espumado: #bf8453;
+    --morango: #ddacae;
+    --leite: #cec2ab;
+    --creme: #f7ebd5;
+    --qualhada: #e9d9b8;
+    --texto: "Nunito", sans-serif;
+    --titulo:  "Chango", sans-serif;
 }
-  background-color:var(--azul);
-  font-famili
+body{
+    background-color: var(--creme);
+    font-family: var(--texto);
+    margin: 0;
+}
+.img-logo{ 
+ width: 20%;
+ border-radius: 5%;
+}
+header{
+    background-color: #5a3a11;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30PX;
+   
+    font-size: 20px;
+    font-family: var(--titulo);
+    text-transform: uppercase;
+}
+.menu a{
+    text-decoration: none;
+     color: var(--creme);
+}
+.menu a:hover{
+    color: var(--morango);
+    transition: 0.5s;
+}
+.capa{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.capa img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.apresentacao{
+    font-family: var(--titulo);
+    text-align: center;
+    margin: 100px 0;
+}
+.apresentacao h2{
+color: var(--expresso);
+font-size: 100px;
+}
+.apresentacao p{
+    color: var(--morango);
+    font-size: 50px;
+    font-family: var(--texto);
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 5px;
+}
+.sobre div{
+    width: 40%;
+    text-align: center;
+}
+.sobre-img img{
+    width: 50%;
+    border-radius: 20px 20px 20px 20px;
+}
+.sobre h2{
+    font-family: var(--titulo);
+    font-size: 40px;
+    color: var(--expresso);
+    margin-bottom: 15px;
+}
+.sobre p{
+    font-size: 24px;
+    color: var(--capuccino);
+}
+footer{
+    background-color: var(--capuccino);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--titulo);
+    color: var(--creme);
+    font-size: 20px;
+
+}
