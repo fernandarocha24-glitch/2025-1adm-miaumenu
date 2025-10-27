@@ -79,7 +79,7 @@ font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 40px 0;
     gap: 5px;
 }
 .sobre div{
@@ -107,7 +107,34 @@ footer{
     align-items: center;
     justify-content: center;
     font-family: var(--titulo);
-    color: var(--creme);
+    color: var(--morango);
     font-size: 20px;
 
+}
+.produtos{
+    padding: 40px 0;
+    text-align: center;
+    
+}
+.produtos h2{
+    font-family: var(--titulo);
+    font-size: 40px;
+    color: var(--capuccino);
+    margin: 40px;
+}
+.lista-produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.produto{
+    background-color: var(--capuccino);
+    width: 27%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.produto img{
+    width: 100%;
+    border-radius: 10px;
 }
